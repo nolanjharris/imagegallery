@@ -1,0 +1,37 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #black;
+	background:  #d6d6c2;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-inverse {
+	background: #black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+
+/*/* Gray Scale */
+.thumbnail img {
+	filter: grayscale(100%);
+	transition: .3s ease-in-out;
+}
+
+.thumbnail img:hover {
+	filter: grayscale(0);
+}
